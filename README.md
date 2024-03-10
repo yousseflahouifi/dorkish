@@ -31,6 +31,9 @@ Once you have found or built the dork you need, simply click it and click search
 - Add a search bar to search through the results
 - Might add some LLM models to build dorks
 
+# Demo
+<img src="https://raw.githubusercontent.com/yousseflahouifi/dorkish/main/dork.png" alt="cloudpulse" width="50%">
+
 # Notes
 I have built some dorks and I have used some public resources to gather the dorks , here's few :
 - https://github.com/lothos612/shodan
