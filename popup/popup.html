@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" href="bulma.min.css" />
+</head>
+<body style="width:500px;">
+
+<div class="tabs is-fullwidth is-toggle container m-3">
+  <ul>
+    <li class="is-active"  id="g"><a>Google</a></li>
+    <li id="s"><a>Shodan</a></li>
+  </ul>
+</div>
+
+<div id="google" class="container m-3" style="/*display:none;*/">
+	<center><h1 class="title" > Google dorking</h1></center>
+	<div class="field mt-4">
+		<input class="input" type="text" id="searchbox" placeholder="Your dork goes here">
+			
+		<button class="button mt-3 " id="startButton">search</button>
+		<button class="button mt-3" id="prebuilt">prebuilt</button>
+		<button class="button mt-3" id="builder">builder</button>
+	</div>
+	
+	<div id="dorksTableContainer"class="mt-3" style="max-height: 200px; overflow-y: auto;"></div>
+	
+		
+	<div class="columns is-mobile" id="checkboxes">
+		<div class="column">
+		<input type="checkbox" id="bugbountyvuln" /> Bug bounty vulnerabilities<br>
+		<input type="checkbox" id="exposedfiles"/> Exposed files and directories <br>
+		<input type="checkbox" id="logins"/> logins and sign up portals
+	</div>
+	<div class="column">
+		<input type="checkbox" id="bbp"/>  Bug bounty programs<br>
+		<input type="checkbox" id="jobs" /> Cyber security jobs
+	</div>
+  
+		<div id="dorkss"class="mt-3" style="max-height: 200px; overflow-y: auto;"></div>
+	</div>
+
+	
+</div>
+<div id="shodan" class="container m-3" style="display:none;">
+	<center><h1 class="title" >Shodan dorks</h1></center>
+	
+	<div class="field mt-4">
+		<input class="input" type="text" id="searchbox2" placeholder="Your dork goes here">
+			
+		<button class="button mt-3 " id="startButton2">search</button>
+		<button class="button mt-3" id="prebuilt2">prebuilt</button>
+		<button class="button mt-3" id="builder2">builder</button>
+	</div>
+	
+	<div id="dorksTableContainer2"class="mt-3" style="max-height: 200px; overflow-y: auto;"></div>
+	
+	
+</div>
+
+</body>
+<script src="popup.js"></script>
+</html>

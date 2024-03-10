@@ -1,0 +1,17 @@
+{
+	"manifest_version":3,
+	"name":"dorkish",
+	"description":"OSINT & RECON tool",
+	"version":"1.0",
+	"action":{
+		"default_popup":"popup/popup.html"
+	},
+	"icons":{
+		"16": "images/dorkishicon.png",
+        "48": "images/dorkishicon.png",
+        "128": "images/dorkishicon.png"
+	},
+	"permissions":[
+		"tabs"
+	]
+}
