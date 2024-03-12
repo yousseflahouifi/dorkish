@@ -10,6 +10,8 @@ git clone https://github.com/yousseflahouifi/dorkish.git
 2- Go to chrome://extensions/ and enable the Developer mode in the top right corner.<br>
 3- click on Load unpacked extension button and select the dorkish folder.
 
+**Note:** For firefox users , you can find the extension here : https://addons.mozilla.org/en-US/firefox/addon/dorkish/
+
 # Features
 ## Google dorking
 - Builder with keywords to filter your google search results.
